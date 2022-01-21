@@ -5,7 +5,7 @@ Implementation of generalirsed cellular automata models using NumPy containers f
 
 ![](example.png)
 
-Fig.  Sandpile converged state for a 128x128 array with initial state equal to 48 for each cell.
+Fig.  Sandpile converged states for a 64x64 (left) and 128x128 (right) array with initial state equal to 48 for each cell.
 
 
 ### Functions included in the automata class:
