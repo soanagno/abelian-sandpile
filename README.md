@@ -3,7 +3,7 @@
 
 Implementation of generalirsed cellular automata models using NumPy containers for optimised run times, avoiding nested for loops where possible.
 
-![](fig_128x128.png)
+![](example.png)
 
 Fig.  Sandpile converged state for a 128x128 array with initial state equal to 48 for each cell.
 
