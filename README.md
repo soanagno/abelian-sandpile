@@ -1,7 +1,7 @@
 
 ## Cellular Automata: Abelian-Sandpile and generalised Game of Life
 
-Implementation of generalirsed cellular automata models using NumPy containers for optimised run times, avoiding nested for loops where possible.
+Implementation of generalirsed cellular automata models using NumPy containers for optimised run times, avoiding nested "for" loops where possible.
 
 ![](example.png)
 
