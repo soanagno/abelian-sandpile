@@ -11,7 +11,7 @@ Fig.  Sandpile converged states for a 64x64 (left) and 128x128 (right) array wit
 ### Functions included in the automata class:
 
 -Abelian Sandpile
-=Game of Life (triangular mesh)
+-Game of Life (triangular mesh)
 -Game of Life (generic rules)
 -Game of Life (generic n-dimensional mesh/connectivity graph)
 
