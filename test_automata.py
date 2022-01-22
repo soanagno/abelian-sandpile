@@ -6,6 +6,18 @@ import matplotlib.pyplot as plt
 BASE_PATH = os.path.dirname(__file__)
 
 
+def examplePlots(n=64, v_ini=48):
+
+    cmap='gnuplot2'
+    initial = v_ini*np.ones((n, n))
+    final = automata.sandpile(v_ini*np.ones((n, n)))
+
+    plt.figure(1)
+    plt.imshow(initial, cmap=cmap)
+    plt.figure(2)
+    plt.imshow(final, cmap=cmap)
+    plt.show()
+    
 def test_sandpile():
 
     initial64 = np.load(os.sep.join((BASE_PATH, 'pile_64x64_init.npy')))
@@ -99,7 +111,7 @@ def test_life_generic():
 
 
 # Test cases
-
+examplePlots()
 test_sandpile()
 # test_life()
 # test_lifetri()
