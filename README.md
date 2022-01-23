@@ -5,7 +5,7 @@ Implementation of generalirsed cellular automata models using NumPy containers f
 
 ![](example.png)
 
-Fig.  Sandpile converged states for a 64x64 (left) and 512x512 (right).
+Fig.  Sandpile converged states for a 64x64 (left) and 512x512 (right) grid.
 
 
 ### Functions included in the automata class:
