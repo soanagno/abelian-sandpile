@@ -6,11 +6,12 @@ import matplotlib.pyplot as plt
 BASE_PATH = os.path.dirname(__file__)
 
 
-def examplePlots(n=64, v_ini=48):
+def examplePlots(n=128, v_ini=10):
 
-    cmap='gnuplot2'
-    initial = v_ini*np.ones((n, n))
-    final = automata.sandpile(v_ini*np.ones((n, n)))
+    cmap='plasma'
+    initial = np.zeros((n, n))
+    initial[int(n/4):int(3*n/4), int(n/4):int(3*n/4)] = v_ini
+    final = automata.sandpile(initial)
 
     plt.figure(1)
     plt.imshow(initial, cmap=cmap)
