@@ -3,7 +3,7 @@
 
 Implementation of generalirsed cellular automata models using NumPy containers for optimised run times, avoiding nested "for" loops where possible.
 
-![](example.png)
+![](final_states.png)
 
 Fig.  Sandpile converged states for a 64x64 (left) and 256x256 (right).
 
